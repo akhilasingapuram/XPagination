@@ -13,7 +13,7 @@ const EmployeeDataTable = () => {
       const jsonData = await data.json();
       setEmployeeList(jsonData);
     } catch (error) {
-      console.error(error);
+      alert("failed to fetch data");
     }
   };
 
@@ -70,7 +70,7 @@ const EmployeeDataTable = () => {
         {/* <span>
           Page {currentPage} of {totalPages}
         </span> */}
-        <button type="button">{currentPage}</button>
+        <div className="button">{currentPage}</div>
         <button
           type="button"
           onClick={() => handlePageChange("next")}

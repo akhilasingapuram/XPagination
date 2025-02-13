@@ -82,6 +82,10 @@ table{
   background-color: rgb(66, 186, 66);
   margin:10px;
 }
+.buttons>div{
+  background-color: rgb(66, 186, 66);
+  padding:8px;
+}
 
 thead>tr{
   background-color: rgb(66, 186, 66);
