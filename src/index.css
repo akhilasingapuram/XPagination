@@ -85,6 +85,8 @@ table{
 .buttons>div{
   background-color: rgb(66, 186, 66);
   padding:8px;
+  display: inline-block;
+
 }
 
 thead>tr{
