@@ -63,7 +63,7 @@ const EmployeeDataTable = () => {
         <button
           type="button"
           onClick={() => handlePageChange("prev")}
-          disabled={currentPage === 1}
+          // disabled={currentPage === 1}
         >
           Previous
         </button>
@@ -74,7 +74,7 @@ const EmployeeDataTable = () => {
         <button
           type="button"
           onClick={() => handlePageChange("next")}
-          disabled={currentPage === totalPages}
+          // disabled={currentPage === totalPages}
         >
           Next
         </button>
